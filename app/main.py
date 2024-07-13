@@ -3,7 +3,7 @@ from fastapi_users import FastAPIUsers
 from fastapi_users.authentication import JWTStrategy, AuthenticationBackend
 from fastapi_users.db import SQLAlchemyUserDatabase
 from fastapi_users.manager import BaseUserManager
-from fastapi_users.password import PasswordHelper  # Використовуйте PasswordHelper
+from fastapi_users.password import PasswordHelper  
 from pydantic import BaseModel, EmailStr
 from sqlalchemy import Column, String, Integer, create_engine, ForeignKey, Date
 from sqlalchemy.ext.declarative import DeclarativeMeta, declarative_base
